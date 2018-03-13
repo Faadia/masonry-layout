@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .main .container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .banner .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 150px 0 150px;
+  }
+
+  img {
+    margin: 15px;
+  }
+
+  img:hover {
+      opacity: 0.7;
+  }
+  
+  .pictures {
+    column-count: 3;
+    width: 100%;
+  } 
+  
